@@ -10,11 +10,11 @@ WePayUI 是基于 WeUI 基础样式库拓展的场景组件，用于快速使用
 ## 快速使用
 
 使用 CDN 资源
-<!-- WePayUI 核心CSS 文件，压缩版 -->
-<link rel="stylesheet" href="https://wx.gtimg.com/res/css/wepayui/0.0.1/wepayui.min.css">
+&lt;!-- WePayUI 核心CSS 文件，压缩版 --&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;https://wx.gtimg.com/res/css/wepayui/0.0.1/wepayui.min.css&quot;&gt;
 
-<!-- WePayUI 核心CSS 文件，未压缩版，含less源码预览 -->
-<link rel="stylesheet" href="https://wx.gtimg.com/res/css/wepayui/0.0.1/wepayui.css">
+&lt;!-- WePayUI 核心CSS 文件，未压缩版，含less源码预览 --&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;https://wx.gtimg.com/res/css/wepayui/0.0.1/wepayui.css&quot;&gt;
 
 ## 下载模板
 
