@@ -1,0 +1,17 @@
+{
+  "name": "pay_record",
+  "version": "0.0.1",
+  //类型 ["base","extend"]
+  "type": "base",
+  "author": {
+    "name": "wepayui",
+    "email": "wepayui@qq.com"
+  },
+  "description": "收付款记录",
+  //核心样式
+  "style": "index.css",
+  //核心脚本
+  "script": "",
+  //是否隐藏组件
+  "hidden": "false"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "weui-tips",
+  "version": "0.0.1",
+  //类型 ["base","extend"]
+  "type": "base",
+  "author": {
+    "name": "wepayui",
+    "email": "wepayui@qq.com"
+  },
+  "description": "对话框",
+  //核心样式
+  "style": "weui-dialog.less",
+  //依赖样式
+  "styleDependencies": [
+    "weui-mask.less"
+  ],
+  //核心脚本
+  "script": "",
+  //是否隐藏组件["true","false","always"]
+  "hidden": "false"
+}

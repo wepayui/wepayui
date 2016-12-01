@@ -1,0 +1,13 @@
+{
+  "name": "reset",
+  "version": "0.0.1",
+  "type": "base",
+  "author": {
+    "name": "wepayui",
+    "email": "wepayui@qq.com"
+  },
+  "description": "样式重置、函数、变量",
+  "style": "reset.less",
+  "script": "",
+  "hidden":"always"
+}

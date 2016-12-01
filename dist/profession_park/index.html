@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+<meta content="email=no" name="format-detection">
+<link rel="stylesheet" href="css/wepayui.css">
+<link rel="stylesheet" href="css/index.css">
+<title>确认缴费</title>
+</head>
+<!-- 
+	通用说明： 
+	1.模块的隐藏添加class:hide;
+	2.body标签默认绑定ontouchstart事件，激活所有按钮的:active效果
+-->
+<body ontouchstart>
+
+<!-- 确认缴费[[ -->
+<!-- 
+	交互说明，控制.confirm
+	1.显示【打折】，添加class:show-discount
+	2.显示【打折后金额为0元】，添加class:show-discount-free
+	3.显示【超时提示】，在此添加class:show-overtime
+	4.显示【无需缴费】，在此添加class:show-free
+	5.显示【此卡未入场】，在此添加class:show-unin
+-->
+<article class="confirm">
+	<div class="info-area">	
+		<dl class="totle">
+			<dt class="totle-title">
+				<h2>停车费</h2>
+			</dt>
+			<!-- 如果打折后金额为0，.totle-discount strong内容修改为：无需缴费 -->		
+			<dd class="totle-num">
+				<strong>￥15.00</strong>
+				<span class="question-area weui-icon-info-circle"></span>
+				<p class="overtime-tips">您未在15分钟内离场，需重新缴费</p>
+			</dd>
+			<dd class="totle-discount">￥30.00</dd>
+			<dd class="totle-free">
+				<h2>无需缴费</h2>
+				<p class="free-tips">进场<span class="green-font">15分钟</span>内免费</p>
+			</dd>
+			<dd class="totle-unin">
+				<h2>此卡未入场</h2>
+				<p class="unin-tips">请向场内工作人员寻求帮助</p>
+			</dd>
+		</dl>
+		<ul class="info-list">
+			<li class="list discount-list">
+				<span class="list-title">停车优惠</span>
+				<span class="list-content">5折停车优惠券</span>
+			</li>
+			<li class="list last-time">
+				<span class="list-title">已停时长</span>
+				<span class="list-content">1小时23分</span>
+			</li>
+			<li class="list in-time">
+				<span class="list-title">入场时间</span>
+				<span class="list-content">10月18日 12:00</span>
+			</li>
+			<li class="list">
+				<span class="list-title">停车卡号</span>
+				<span class="list-content">12345678</span>
+			</li>
+			<li class="list">
+				<span class="list-title">车牌号码</span>
+				<span class="list-content">粤B·JQ238</span>
+			</li>
+			<li class="list">
+				<span class="list-title">停车位置</span>
+				<span class="list-content">
+					<a href="map.html"><span class="map-icon"></span>负二层 H-412</a>
+				</span>
+			</li>
+			<!-- 
+			<li class="list over-due">			
+				<span class="list-title">已缴费用</span>
+				<span class="list-content">￥40</span>
+			</li>
+			-->
+		</ul>
+	</div>
+	<div class="info-btn">
+		<a href="javascript:;" class="weui-btn weui-btn_primary" id="pay_btn">立即缴费</a>
+		<div class="tips">缴费成功后无需再前往收费处嘀卡</div>
+	</div>
+	<div class="discount-free-btn">
+		<a href="javascript:;" class="btn btn-green">确认离场</a>
+		<div class="tips">无需再前往收费处嘀卡</div>
+	</div>
+	<div class="wepay-logo"></div>
+</article>
+<!-- 确认缴费]] -->
+
+<!-- 计费方式弹出层[[ -->
+<div class="mask billing-mask hide">
+	<div class="content">
+		<div class="billing-title">停车费计费方式</div>
+		<ul class="info-list billing-list">
+			<li class="list">
+				<span class="list-title">第 1 小时收费</span>
+				<span class="list-content">10.00 元</span>
+			</li>
+			<li class="list">
+				<span class="list-title">超出 1 小时收费</span>
+				<span class="list-content">1×5.00 元</span>
+			</li>
+			<li class="list totle-list">
+				<span class="list-title">合计</span>
+				<span class="list-content"><span class="green-font">15.00</span>元</span>
+			</li>
+		</ul>
+
+		<dl class="rules">
+			<dt class="rules-title">收费规则</dt>
+			<dd class="rules-main">周一至周四&nbsp;8&nbsp;时至&nbsp;22&nbsp;时及周五&nbsp;8&nbsp;时至&nbsp;18&nbsp;时，5&nbsp;元&nbsp;/&nbsp;小时 ; 周五&nbsp;18&nbsp;时至&nbsp;22&nbsp;时，周六、日及节假日&nbsp;8&nbsp;时至&nbsp;22时，10&nbsp;元&nbsp;/&nbsp;小时; 全周&nbsp;22&nbsp;时至次日&nbsp;8&nbsp;时，4&nbsp;元&nbsp;/&nbsp;小时，最高限价&nbsp;10&nbsp;元; 24&nbsp;小时最高限价&nbsp;80&nbsp;元&nbsp;/&nbsp;天。</dd>
+		</dl>
+		<div class="close-btn">
+			<a href="#" class="weui-btn weui-btn_default" id="billingMaskClose">关&nbsp;&nbsp;闭</a>
+		</div>	
+	</div>
+</div>
+<!-- 计费方式弹出层]] -->
+</body>
+</html>
+

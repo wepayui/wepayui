@@ -1,0 +1,101 @@
+.weui-wepay-details {
+  padding: 0 15px;
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+}
+.weui-wepay-details__hd {
+  position: relative;
+  padding: 12px 0;
+}
+.weui-wepay-details__hd:after {
+  content: " ";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 1px;
+  border-bottom: 1px solid #DDDDDD;
+  color: #DDDDDD;
+  transform-origin: 0 100%;
+  transform: scaleY(0.5);
+}
+.weui-wepay-details__state {
+  padding: 12px 0;
+}
+.weui-wepay-details__title {
+  font-weight: normal;
+  font-size: 14px;
+  text-align: center;
+}
+.weui-wepay-details__title .weui-wepay-details__icon {
+  vertical-align: -5px;
+}
+.weui-wepay-details__desc {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 6px;
+}
+.weui-wepay-details__bd {
+  padding: 12px 0;
+}
+.weui-wepay-details__line {
+  margin-top: 7px;
+  position: relative;
+  padding: 7px 0;
+}
+.weui-wepay-details__line:after {
+  content: " ";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 1px;
+  border-top: 1px solid #DDDDDD;
+  color: #DDDDDD;
+  transform-origin: 0 0;
+  transform: scaleY(0.5);
+}
+.weui-wepay-details__ft {
+  margin-top: 20px;
+}
+.weui-wepay-detail {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  line-height: 30px;
+}
+.weui-wepay-detail__hd {
+  text-align: left;
+}
+.weui-wepay-detail__bd {
+  text-align: left;
+}
+.weui-wepay-detail__ft {
+  text-align: right;
+}
+.weui-wepay-detail_primary .weui-wepay-detail__ft {
+  text-align: left;
+  flex: 1;
+}
+.weui-wepay-detail_column {
+  position: relative;
+  align-items: center;
+  line-height: 44px;
+  font-size: 12px;
+}
+.weui-wepay-detail_column:after {
+  content: " ";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 1px;
+  border-bottom: 1px solid #DDDDDD;
+  color: #DDDDDD;
+  transform-origin: 0 100%;
+  transform: scaleY(0.5);
+}
+.weui-wepay-detail_column:last-child:after {
+  content: none;
+}

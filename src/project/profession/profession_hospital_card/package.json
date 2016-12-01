@@ -1,0 +1,23 @@
+{
+  "name": "profession_hospital_card",
+  "version": "0.0.1",
+  //类型 ["base","extend"]
+  "type": "base",
+  "author": {
+    "name": "wepayui",
+    "email": "wepayui@qq.com"
+  },
+  "description": "医生名片",
+  //核心样式
+  "style": "index.css",
+  //依赖样式
+  "styleDependencies": [
+    "./src/components/weui-font/weui-font.less",
+    "./src/components/weui-button/weui-button.less",
+    "./src/components/weui-logo/weui-logo.less"
+  ],
+  //核心脚本
+  "script": "",
+  //是否隐藏组件
+  "hidden": "false"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "pay_scan_code",
+  "version": "0.0.1",
+  //类型 ["base","extend"]
+  "type": "base",
+  "author": {
+    "name": "wepayui",
+    "email": "wepayui@qq.com"
+  },
+  "description": "扫码付款",
+  //核心样式
+  "style": "index.css",
+  //核心脚本
+  "script": "",
+  //是否隐藏组件
+  "hidden": "false"
+}

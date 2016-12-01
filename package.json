@@ -1,0 +1,40 @@
+{
+  "name": "wepayui",
+  "version": "0.0.1",
+  "description": "base weui 1.0.2",
+  "keywords": [
+    "wepayui",
+    "wechat",
+    "weixin",
+    "css",
+    "less",
+    "mobile"
+  ],
+  "main": "dist/wepayui/css/wepayui.css",
+  "scripts": {
+    "start": "gulp build:less",
+    "test": "gulp release"
+  },
+  "author": "wepay ui team",
+  "homepage": "https://github.com/wepayui/wepayui",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^6.4.0",
+    "browser-sync": "^2.14.3",
+    "event-stream": "^3.3.4",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-file-include": "^1.0.0",
+    "gulp-header": "^1.8.8",
+    "gulp-less": "^3.1.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^6.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^2.0.0",
+    "require-dir": "^0.3.0",
+    "yargs": "^5.0.0"
+  }
+}

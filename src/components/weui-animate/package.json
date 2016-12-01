@@ -1,0 +1,17 @@
+{
+  "name": "weui-animate",
+  "version": "0.0.1",
+  //类型 ["base","extend"]
+  "type": "base",
+  "author": {
+    "name": "wepayui",
+    "email": "wepayui@qq.com"
+  },
+  "description": "动画",
+  //核心样式
+  "style": "weui-animate.less",
+  //核心脚本
+  "script": "",
+  //是否隐藏组件["true","false","always"]
+  "hidden": "always"
+}

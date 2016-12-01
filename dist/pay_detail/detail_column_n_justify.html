@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+<meta content="email=no" name="format-detection">
+<link rel="stylesheet" href="css/wepayui.min.css">
+<link rel="stylesheet" href="css/index.css">
+<title>支付详情 - 多列 - 两端对齐</title>
+</head>
+<!-- 
+	通用说明： 
+	1.模块的隐藏添加class:hide;
+	2.body标签默认绑定ontouchstart事件，激活所有按钮的:active效果
+-->
+<body>
+<div class="weui-wepay-details">
+    <div class="weui-wepay-details__bd" style="padding-top: 0;">
+        <div class="weui-wepay-detail weui-wepay-detail_column">
+            <div style="width: 15%"> <strong>图片</strong>
+            </div>
+            <div style="width: 20%;text-align: center;"> <strong>物料种类</strong>
+            </div>
+            <div style="width: 20%;text-align: center;">
+                <strong>门店配比</strong>
+            </div>
+            <div style="width: 15%;text-align: center;">
+                <strong>材质</strong>
+            </div>
+            <div style="width: 15%;text-align: center;">
+                <strong>尺寸</strong>
+            </div>
+            <div style="width: 13%;text-align: right;">
+                <strong>数量</strong>
+            </div>
+        </div>
+        <div class="weui-wepay-detail weui-wepay-detail_column">
+            <div style="width: 15%;line-height: 1;">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAANSURBVBhXY2BgYGAAAAAFAAGKM+MAAAAAAElFTkSuQmCC" alt="" width="20" height="20" style="background-color: #ccffce;"></div>
+            <div style="width: 20%;text-align: center;">贴纸</div>
+            <div style="width: 20%;text-align: center;%">2</div>
+            <div style="width: 15%;text-align: center;">PVC</div>
+            <div style="width: 15%;text-align: center;">中号</div>
+            <div style="width: 13%;text-align: right;">2</div>
+        </div>
+        <div class="weui-wepay-detail weui-wepay-detail_column">
+            <div style="width: 15%;line-height: 1;">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAANSURBVBhXY2BgYGAAAAAFAAGKM+MAAAAAAElFTkSuQmCC" alt="" width="20" height="20" style="background-color: #ffcce4;"></div>
+            <div style="width: 20%;text-align: center;">贴纸</div>
+            <div style="width: 20%;text-align: center;%">2</div>
+            <div style="width: 15%;text-align: center;">亚克力</div>
+            <div style="width: 15%;text-align: center;">小号</div>
+            <div style="width: 13%;text-align: right;">3</div>
+        </div>
+        <div class="weui-wepay-detail weui-wepay-detail_column">
+            <div style="width: 15%;line-height: 1;">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAANSURBVBhXY2BgYGAAAAAFAAGKM+MAAAAAAElFTkSuQmCC" alt="" width="20" height="20" style="background-color: #c6c6c6;"></div>
+            <div style="width: 20%;text-align: center;">贴纸</div>
+            <div style="width: 20%;text-align: center;%">2</div>
+            <div style="width: 15%;text-align: center;">亚克力</div>
+            <div style="width: 15%;text-align: center;">大号</div>
+            <div style="width: 13%;text-align: right;">4</div>
+        </div>
+        <div class="weui-wepay-detail weui-wepay-detail_column">
+            <div style="width: 15%;line-height: 1;">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAANSURBVBhXY2BgYGAAAAAFAAGKM+MAAAAAAElFTkSuQmCC" alt="" width="20" height="20" style="background-color: #dcdeff;"></div>
+            <div style="width: 20%;text-align: center;">贴纸</div>
+            <div style="width: 20%;text-align: center;%">2</div>
+            <div style="width: 15%;text-align: center;">亚克力</div>
+            <div style="width: 15%;text-align: center;">大号</div>
+            <div style="width: 13%;text-align: right;">4</div>
+        </div>
+        <div class="weui-wepay-detail" style="margin-top: 14px;">
+            <div class="weui-wepay-detail__bd">订单编号：</div>
+            <div class="weui-wepay-detail__ft">x12345678910</div>
+        </div>
+        <div class="weui-wepay-detail">
+            <div class="weui-wepay-detail__bd">下单日期：</div>
+            <div class="weui-wepay-detail__ft">2016-10-10 13:06:45</div>
+        </div>
+        <div class="weui-wepay-detail">
+            <div class="weui-wepay-detail__bd">订单金额：</div>
+            <div class="weui-wepay-detail__ft weui-wepay-color-green">￥800.00</div>
+        </div>
+    </div>
+    <div class="weui-wepay-details__ft">
+        <a href="javascript:;" class="weui-btn weui-btn_primary">确定</a>
+    </div>
+</div>
+<div class="weui-wepay-logos weui-wepay-logos_ft">
+    <i class="weui-wepay-logo-default weui-wepay-logo_gray" style="font-size: 16px;"><span class="path1"></span><span class="path2"></span></i>
+</div>
+</body>
+</html>
+
