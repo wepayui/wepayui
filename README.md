@@ -31,3 +31,10 @@ $ npm install wepayui
 定制
 
 我们提供了客户端构建工具，您可以按需选择组件和场景自助构建。
+<p>
+    <img src="https://wepayui.github.io/img/wepayui_build.gif" alt="wepayui_build" class="wepayui-build-show">
+</p>
+## 预览
+<p>
+<img width="250" height="250" src="https://wepayui.github.io/img/code.png">
+</p>
