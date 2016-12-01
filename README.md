@@ -27,9 +27,9 @@ WePayUI 是基于 WeUI 基础样式库拓展的场景组件，用于快速使用
 WePayUI安装包包含开发目录 src 和生产目录 dist ，其中开发环境包含Less、JavaScript、字体文件的源码，使用 gulp 作为编译系统。
 
 npm安装
-
+<pre>
 $ npm install wepayui
-
+</pre>
 定制
 
 我们提供了客户端构建工具，您可以按需选择组件和场景自助构建。
@@ -37,6 +37,11 @@ $ npm install wepayui
     <img src="https://wepayui.github.io/img/wepayui_build.gif" alt="wepayui_build" class="wepayui-build-show">
 </p>
 ## 预览
+PC端
+<p>
+    <a href="https://wepayui.github.io" target="_blank">https://wepayui.github.io</a>
+</p>
+移动端
 <p>
 <img width="250" height="250" src="https://wepayui.github.io/img/code.png">
 </p>
