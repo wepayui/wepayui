@@ -10,6 +10,11 @@ WePayUI 是基于 WeUI 基础样式库拓展的场景组件，用于快速使用
 ## 快速使用
 
 使用 CDN 资源
+<!-- WePayUI 核心CSS 文件，压缩版 -->
+<link rel="stylesheet" href="https://wx.gtimg.com/res/css/wepayui/0.0.1/wepayui.min.css">
+
+<!-- WePayUI 核心CSS 文件，未压缩版，含less源码预览 -->
+<link rel="stylesheet" href="https://wx.gtimg.com/res/css/wepayui/0.0.1/wepayui.css">
 
 ## 下载模板
 
@@ -18,3 +23,11 @@ WePayUI 是基于 WeUI 基础样式库拓展的场景组件，用于快速使用
 ## 安装
 
 WePayUI安装包包含开发目录 src 和生产目录 dist ，其中开发环境包含Less、JavaScript、字体文件的源码，使用 gulp 作为编译系统。
+
+npm安装
+
+$ npm install wepayui
+
+定制
+
+我们提供了客户端构建工具，您可以按需选择组件和场景自助构建。
