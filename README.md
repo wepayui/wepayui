@@ -32,18 +32,16 @@ PC端
 
 使用 WePayUI 提供现成案例模板，可在场景找到对应的下载链接。
 
-## 安装
-
-WePayUI安装包包含开发目录 src 和生产目录 dist ，其中开发环境包含Less、JavaScript、字体文件的源码，使用 gulp 作为编译系统。
-
-npm安装
-<pre>
-$ npm install wepayui
-</pre>
 ## 定制
 
 我们提供了客户端构建工具，您可以按需选择组件和场景自助构建。
 <p>
     <img src="https://wepayui.github.io/img/wepayui_build.gif" alt="wepayui_build" class="wepayui-build-show">
+</p>
+## 反馈
+
+使用过程遇到任何问题，请留下您的宝贵建议。
+<p>
+    <a href="https://github.com/wepayui/wepayui/issues" target="_blank">https://github.com/wepayui/wepayui/issues</a>
 </p>
 
