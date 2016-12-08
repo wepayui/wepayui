@@ -34,7 +34,33 @@ PC端
 
 ## 定制
 
-我们提供了客户端构建工具，您可以按需选择组件和场景自助构建。
+方式一：通过修改wepayui_config.json，把不需要使用的组件注释掉即可
+<code>[
+    "weui-wepay-logo", 
+    "weui-wepay-font", 
+    "weui-wepay-flow", 
+    "weui-icons", 
+    "weui-dialog", 
+    "weui-cell", 
+    "weui-button", 
+    "weui-actionsheet", 
+    "weui-agree", 
+    "weui-article", 
+    "weui-flex", 
+    "weui-footer", 
+    "weui-grid", 
+    "weui-loadmore", 
+    "weui-mask", 
+    "weui-media-box", 
+    "weui-msg", 
+    "weui-panel", 
+    "weui-progress", 
+    "weui-searchbar", 
+    "weui-tab", 
+    "weui-toast"
+]</code>
+
+方式二：我们提供了客户端构建工具，您可以按需选择组件和场景自助构建。
 <p>
     <img src="https://wepayui.github.io/img/wepayui_build.gif" alt="wepayui_build" class="wepayui-build-show">
 </p>
