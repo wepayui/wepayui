@@ -60,7 +60,7 @@ PC端
     "weui-toast"
 ]</code></pre>
 
-方式二：我们提供了客户端构建工具，您可以按需选择组件和场景自助构建。
+方式二：我们提供了<a href="https://github.com/wepayui/wepayui_build_tool" target="_blank">客户端构建工具<a>，您可以按需选择组件和场景自助构建。
 <p>
     <img src="https://wepayui.github.io/img/wepayui_build.gif" alt="wepayui_build" class="wepayui-build-show">
 </p>
