@@ -35,7 +35,7 @@ PC端
 ## 定制
 
 方式一：通过修改wepayui_config.json，把不需要使用的组件注释掉即可
-<code>[
+<pre><code>[
     "weui-wepay-logo", 
     "weui-wepay-font", 
     "weui-wepay-flow", 
@@ -58,7 +58,7 @@ PC端
     "weui-searchbar", 
     "weui-tab", 
     "weui-toast"
-]</code>
+]</code></pre>
 
 方式二：我们提供了客户端构建工具，您可以按需选择组件和场景自助构建。
 <p>
