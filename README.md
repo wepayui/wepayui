@@ -39,10 +39,10 @@ PC端
 ## 安装源码
 
 我们提供了源码方便有一定开发能力的程序员使用，其中 WePayUI 安装包包含开发目录 src 和生产目录 dist ，其中开发环境包含Less、JavaScript、字体文件的源码，使用 gulp 作为编译系统。
-# github下载
+### github下载
 https://github.com/wepayui
 
-# npm下载
+### npm下载
 <pre>
 <code>npm install wepayui</code>
 </pre>
