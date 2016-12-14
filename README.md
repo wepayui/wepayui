@@ -1,7 +1,9 @@
 ## 简介
 WePayUI 由微信支付官方设计团队出品，基于 WeUI 拓展的场景组件，用于快速使用微信支付品牌规范，提升开发效率。
-<p><a href="https://github.com/wepayui/wepayui"><img src="https://img.shields.io/badge/npm-v0.0.2-blue.svg"></a></p>
-<p><<a href="https://www.npmjs.com/package/wepayui"><img src="https://img.shields.io/badge/github-wepayui-green.svg"></a></p>
+<p>
+<a href="https://github.com/wepayui/wepayui"><img src="https://img.shields.io/badge/npm-v0.0.2-blue.svg"></a>
+<a href="https://www.npmjs.com/package/wepayui"><img src="https://img.shields.io/badge/github-wepayui-green.svg"></a>
+</p>
 
 ## 价值
 
