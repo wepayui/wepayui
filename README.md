@@ -1,6 +1,6 @@
 # WePayUI
 <p>
-<a href="https://www.npmjs.com/package/wepayui"><img src="https://img.shields.io/badge/npm-v0.0.2-blue.svg"></a>
+<a href="https://www.npmjs.com/package/wepayui"><img src="https://img.shields.io/badge/npm-v0.0.4-blue.svg"></a>
 <a href="https://github.com/wepayui/wepayui"><img src="https://img.shields.io/badge/github-wepayui-green.svg"></a>
 </p>
 
