@@ -1,3 +1,5 @@
+
+<a href="https://github.com/wepayui/wepayui"><img src="https://img.shields.io/badge/github-wepayui-blue.svg" class="badge"></a>
 ## 简介
 WePayUI 由微信支付官方设计团队出品，基于 WeUI 拓展的场景组件，用于快速使用微信支付品牌规范，提升开发效率。
 
