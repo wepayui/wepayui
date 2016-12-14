@@ -48,7 +48,7 @@ https://github.com/wepayui
 
 ### npm下载
 <pre>
-<code>npm install wepayui</code>
+<code>$ npm install wepayui</code>
 </pre>
 
 ## 定制
