@@ -1,6 +1,6 @@
 @echo off
 
-npm start
+gulp build:wepayui
 
 pause
 exit
