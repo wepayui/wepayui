@@ -85,8 +85,8 @@ https://github.com/wepayui
 </p>
 ## 反馈
 
-使用过程遇到任何问题，请留下您的宝贵建议。
+使用WePayUI过程有任何意见，请将您的感受和建议告诉我们。
 <p>
-    <a href="https://github.com/wepayui/wepayui/issues" target="_blank">https://github.com/wepayui/wepayui/issues</a>
+    <a href="https://wj.qq.com/s/877757/a3ec" target="_blank">https://wj.qq.com/s/877757/a3ec</a>
 </p>
 
