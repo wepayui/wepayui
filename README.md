@@ -5,7 +5,7 @@
 </p>
 
 ## 简介
-WePayUI 由微信支付为服务商和商户量身打造，用于快速制作符合微信支付规范的Web页面，提升开发效率。WePayUI 基于 WeUI 拓展，包含基础组件和行业场景。
+WePayUI 由微信支付为服务商和商户量身打造，用于快速制作符合微信支付规范的Web页面，提升开发效率。WePayUI 基于 <a href="https://github.com/weui/weui" target="_blank">WeUI</a> 拓展，包含基础组件和行业场景。
 
 ## 价值
 
@@ -79,13 +79,13 @@ https://github.com/wepayui
     "weui-toast"
 ]</code></pre>
 
-方式二：我们提供了<a href="https://github.com/wepayui/wepayui_build_tool" target="_blank">客户端构建工具<a>，您可以按需选择组件和场景自助构建。
+方式二：我们提供了<a href="https://github.com/wepayui/wepayui_build_tool" target="_blank">客户端构建工具<a>，你可以按需选择组件和场景自助构建。
 <p>
     <img src="https://wepayui.github.io/img/wepayui_build.gif" alt="wepayui_build" class="wepayui-build-show">
 </p>
 ## 反馈
 
-使用WePayUI过程有任何意见，请将您的感受和建议告诉我们。
+使用WePayUI过程有任何意见，请将你的感受和建议告诉我们。
 <p>
     <a href="https://wj.qq.com/s/877757/a3ec" target="_blank">https://wj.qq.com/s/877757/a3ec</a>
 </p>
