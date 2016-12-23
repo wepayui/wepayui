@@ -87,8 +87,7 @@ https://github.com/wepayui
 
 The MIT License(http://opensource.org/licenses/MIT)
 
-请自由地享受和参与开源
-
+请自由地享受和参与开源。
 ## 反馈
 
 使用WePayUI过程有任何意见，请将你的感受和建议告诉我们。
