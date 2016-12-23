@@ -83,10 +83,14 @@ https://github.com/wepayui
 <p>
     <img src="https://wepayui.github.io/img/wepayui_build.gif" alt="wepayui_build" class="wepayui-build-show">
 </p>
+## License
+
+The MIT License(http://opensource.org/licenses/MIT)
+请自由地享受和参与开源
+
 ## 反馈
 
 使用WePayUI过程有任何意见，请将你的感受和建议告诉我们。
 <p>
     <a href="https://wj.qq.com/s/877757/a3ec" target="_blank">https://wj.qq.com/s/877757/a3ec</a>
 </p>
-
