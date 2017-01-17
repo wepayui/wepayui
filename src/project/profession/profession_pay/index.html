@@ -7,7 +7,7 @@
 <meta content="black" name="apple-mobile-web-app-status-bar-style">
 <meta content="telephone=no" name="format-detection">
 <meta content="email=no" name="format-detection">
-<link rel="stylesheet" href="css/wepayui.css">
+<link rel="stylesheet" href="css/wepayui.min.css">
 <link rel="stylesheet" href="css/index.css">
 <title>确认缴费</title>
 </head>
@@ -36,7 +36,7 @@
 			<!-- 如果打折后金额为0，.totle-discount strong内容修改为：无需缴费 -->		
 			<dd class="totle-num">
 				<strong>￥15.00</strong>
-				<span class="question-area weui-icon-info-circle"></span>
+				<span class="question-area weui-icon-info-circle" id="icoTips"></span>
 				<p class="overtime-tips">您未在15分钟内离场，需重新缴费</p>
 			</dd>
 			<dd class="totle-discount">￥30.00</dd>
@@ -92,12 +92,14 @@
 		<a href="javascript:;" class="btn btn-green">确认离场</a>
 		<div class="tips">无需再前往收费处嘀卡</div>
 	</div>
-	<div class="wepay-logo"></div>
+	<div class="weui-wepay-logos weui-wepay-logos_ft">
+	    <i class="weui-wepay-logo-default weui-wepay-logo_gray"><span class="path1"></span><span class="path2"></span></i>
+	</div>
 </article>
 <!-- 确认缴费]] -->
 
 <!-- 计费方式弹出层[[ -->
-<div class="mask billing-mask hide">
+<div class="mask billing-mask hide" id="billingMask">
 	<div class="content">
 		<div class="billing-title">停车费计费方式</div>
 		<ul class="info-list billing-list">
@@ -125,6 +127,15 @@
 	</div>
 </div>
 <!-- 计费方式弹出层]] -->
+<script type="text/javascript" src="js/zepto.min.js"></script>
+<script type="text/javascript">
+	$("#icoTips").on('click',function() {
+		$("#billingMask").removeClass("hide")
+	})
+	$("#billingMaskClose").on('click',function() {
+		$("#billingMask").addClass("hide")
+	})
+</script>
 </body>
 </html>
 

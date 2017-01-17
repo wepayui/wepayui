@@ -145,7 +145,7 @@ body{background-color: #f6f5fb;line-height: 1;}
 .registerinfo-form .input-extend .job{margin-left: 18px;color: #333333;font-size: 13px;}
 
 /* 挂号成功、预约检查、药品清单、药品缴费 */
-.suc-wrap{background-color: #EDEDED;overflow: hidden;position: relative;z-index: 1;}
+.suc-wrap{overflow: hidden;position: relative;z-index: 1;}
 .suc-tit-s{background: url(../img/bg-green.png) repeat 0 0;-webkit-background-size: 40px auto;background-size: 40px auto;overflow;hidden;}
 .suc-tit{padding: 32px 35px 95px;overflow: hidden;}
 .suc-titm{font-size: 22px;font-weight: normal;color: #FFFFFF;text-align: center;padding-bottom: 17px;}

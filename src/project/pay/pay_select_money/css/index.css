@@ -1,9 +1,8 @@
 body{
-  background-color: #f6f5fb;
+  background-color: #fbf9fe;
 }
 .weui-wepay-pay-select{
     padding: 15px;
-    background-color: #f6f5fb;
     position: relative;
     z-index: 1;
 }

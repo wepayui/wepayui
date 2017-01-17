@@ -1,7 +1,10 @@
-body{
+.weui-wepay-pay-wrap{
   background-color: #fbf9fe;
 }
-
+.weui-msg{
+  position: relative;
+  z-index: 1;
+}
 .weui-wepay-pay {
   position: relative;
   z-index: 1;

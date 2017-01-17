@@ -7,7 +7,7 @@
     "name": "wepayui",
     "email": "wepayui@qq.com"
   },
-  "description": "停车场",
+  "description": "缴费",
   //核心样式
   "style": "index.less",
   //核心脚本

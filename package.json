@@ -1,6 +1,6 @@
 {
   "name": "wepayui",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "WePayUI 由微信支付为服务商和商户量身打造，用于快速制作符合微信支付规范的Web页面，提升开发效率。",
   "keywords": [
     "wepayui",

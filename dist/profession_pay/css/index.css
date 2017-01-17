@@ -2,34 +2,16 @@
    公用内容
    ============================================================ */
 body {
-   background-color: #E5E7E5;
+   background-color: #fbf9fe;
 }
 .hide {
    display: none !important;
 }
 
-/* 素材 */
-.wepay-logo {
-   content: "";
-   background: url(data:image/png;base64,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) no-repeat;
-   width: 71px;
-   height: 19px;
-   display: inline-block;
-   -webkit-background-size: 71px 19px;
-   background-size: 71px 19px;
-   -moz-transform: translateX(-50%);
-   -webkit-transform: translateX(-50%);
-   -ms-transform: translateX(-50%);
-   transform: translateX(-50%);
-   position: absolute;
-   left: 50%;
-   bottom: 20px;
-}
-
 /* 弹出层 */
 .mask {
    position: fixed;
-   background-color: rgba(0, 0, 0, 0.85);
+   background-color: rgba(0, 0, 0, 0.6);
    left: 0;
    top: 0;
    width: 100%;
@@ -468,4 +450,8 @@ body {
 .map .map-link img {
    height: auto;
    height: 100%\9\0;
+}
+
+.weui-wepay-logo-default {
+    font-size: 16px;
 }
