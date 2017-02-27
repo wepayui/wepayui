@@ -1,6 +1,6 @@
 # WePayUI
 <p>
-<a href="https://www.npmjs.com/package/wepayui"><img src="https://img.shields.io/badge/npm-v0.0.1-blue.svg"></a>
+<a href="https://www.npmjs.com/package/wepayui"><img src="https://img.shields.io/badge/npm-v0.1.1-blue.svg"></a>
 <a href="https://github.com/wepayui/wepayui"><img src="https://img.shields.io/badge/github-wepayui-green.svg"></a>
 </p>
 
@@ -34,10 +34,10 @@ PC端
 方式二：使用 CDN 资源
 <pre>
 &lt;!-- WePayUI 核心CSS 文件，压缩版 --&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;https://act.weixin.qq.com/res/css/wepayui/0.0.1/wepayui.min.css&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;https://act.weixin.qq.com/static/cdn/css/wepayui/0.0.1/wepayui.min.css&quot;&gt;
 
 &lt;!-- WePayUI 核心CSS 文件，未压缩版，含less源码预览 --&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;https://act.weixin.qq.com/res/css/wepayui/0.0.1/wepayui.css&quot;&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;https://act.weixin.qq.com/static/cdn/css/wepayui/0.0.1/wepayui.css&quot;&gt;
 </pre>
 
 ## 安装源码
