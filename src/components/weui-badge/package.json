@@ -1,5 +1,5 @@
 {
-  "name": "weui-tab",
+  "name": "weui-badge",
   "version": "0.0.1",
   //类型 ["base","extend"]
   "type": "base",
@@ -7,16 +7,11 @@
     "name": "wepayui",
     "email": "wepayui@qq.com"
   },
-  "description": "导航",
+  "description": "徽章",
   //核心样式
-  "style": "weui-tab.less",
-  //依赖样式
-  "styleDependencies": [
-    "weui-navbar.less",
-    "weui-tabbar.less"
-  ],
+  "style": "weui-badge.less",
   //核心脚本
   "script": "",
   //是否隐藏组件["true","false","always"]
-  "hidden": "true"
+  "hidden": "false"
 }

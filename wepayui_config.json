@@ -6,12 +6,14 @@
     "weui-dialog", 
     "weui-cell", 
     "weui-button", 
+    "weui-badge", 
     "weui-actionsheet", 
     "weui-agree", 
     "weui-article", 
     "weui-flex", 
     "weui-footer", 
     "weui-grid", 
+    "weui-loading", 
     "weui-loadmore", 
     "weui-mask", 
     "weui-media-box", 
@@ -19,6 +21,7 @@
     "weui-panel", 
     "weui-progress", 
     "weui-searchbar", 
+    "weui-slider", 
     "weui-tab", 
     "weui-toast"
 ]
