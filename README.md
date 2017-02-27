@@ -1,6 +1,6 @@
 # WePayUI
 <p>
-<a href="https://www.npmjs.com/package/wepayui"><img src="https://img.shields.io/badge/npm-v0.1.1-blue.svg"></a>
+<a href="https://www.npmjs.com/package/wepayui"><img src="https://img.shields.io/badge/npm-v0.0.1-blue.svg"></a>
 <a href="https://github.com/wepayui/wepayui"><img src="https://img.shields.io/badge/github-wepayui-green.svg"></a>
 </p>
 
@@ -62,12 +62,14 @@ https://github.com/wepayui
     "weui-dialog", 
     "weui-cell", 
     "weui-button", 
+    "weui-badge", 
     "weui-actionsheet", 
     "weui-agree", 
     "weui-article", 
     "weui-flex", 
     "weui-footer", 
     "weui-grid", 
+    "weui-loading", 
     "weui-loadmore", 
     "weui-mask", 
     "weui-media-box", 
@@ -75,6 +77,7 @@ https://github.com/wepayui
     "weui-panel", 
     "weui-progress", 
     "weui-searchbar", 
+    "weui-slider", 
     "weui-tab", 
     "weui-toast"
 ]</code></pre>
