@@ -5,7 +5,7 @@ var gulp = require('gulp'),
     notify = require('gulp-notify'),				//提示报错信息
 	plumber = require('gulp-plumber')  				//处理管道崩溃问题
     concat = require('gulp-concat'),				//合并文件
-    cssnano = require('gulp-cssnano'),              //自动压缩CSS
+    cleanCSS = require('gulp-clean-css'),           //自动压缩CSS
     rename = require('gulp-rename'),                //重新命名
     sourcemaps = require('gulp-sourcemaps'),        //sourcemaps
     header = require('gulp-header'),                //为组件首行添加说明
@@ -43,7 +43,7 @@ gulp.task("build:less", function() {
 		.pipe(sourcemaps.write())
 		.pipe(gulp.dest(filepath._CSS_TOPATH))
 		.pipe(browserSync.reload({stream: true}))
-		.pipe(cssnano())
+		.pipe(cleanCSS())
     	.pipe(rename(function (path) {
 			path.basename += '.min';
 		}))

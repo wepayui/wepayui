@@ -1,6 +1,6 @@
-﻿{
+{
   "name": "wepayui",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "WePayUI 由微信支付为服务商和商户量身打造，用于快速制作符合微信支付规范的Web页面，提升开发效率",
   "keywords": [
     "wepayui",
@@ -17,12 +17,12 @@
   },
   "author": "wechat pay official team",
   "repository": {
-      "type": "git",
-      "url": "https://github.com/wepayui/wepayui.git"
+    "type": "git",
+    "url": "https://github.com/wepayui/wepayui.git"
   },
   "homepage": "https://github.com/wepayui/wepayui",
   "bugs": {
-      "url": "https://github.com/wepayui/wepayui/issues"
+    "url": "https://github.com/wepayui/wepayui/issues"
   },
   "license": "MIT",
   "devDependencies": {
@@ -30,8 +30,8 @@
     "browser-sync": "^2.14.3",
     "event-stream": "^3.3.4",
     "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.0.3",
     "gulp-concat": "^2.6.0",
-    "gulp-cssnano": "^2.1.2",
     "gulp-file-include": "^1.0.0",
     "gulp-header": "^1.8.8",
     "gulp-less": "^3.1.0",
