@@ -27,7 +27,9 @@ PC端
 
 ## 快速使用
 我们提供了复制代码，用完即走的功能。
-<img width="456" src="https://wepayui.github.io/img/wepayui_copy.gif">
+<p>
+<img width="456" src="https://wepayui.github.io/img/wepayui_copy.gif" style="border:5px solid #ccc;">
+</p>
 或，引用 CDN 资源。
 <pre>
 &lt;!-- WePayUI 核心CSS 文件，压缩版 --&gt;
