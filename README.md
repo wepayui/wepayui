@@ -26,12 +26,9 @@ PC端
 </p>
 
 ## 快速使用
-方式一：打开官网，按需复制代码或下载模板
-<ul>
-<li>PC端点击图标即可复制HTML代码，点击复制按钮可复制CSS代码。</li>
-<li>使用 WePayUI 提供现成案例模板，可在场景找到对应的下载链接。</li>
-</ul>
-方式二：使用 CDN 资源
+我们提供了复制代码，用完即走的功能。
+<img width="456" src="https://wepayui.github.io/img/wepayui_copy.gif">
+或，引用 CDN 资源。
 <pre>
 &lt;!-- WePayUI 核心CSS 文件，压缩版 --&gt;
 &lt;link rel=&quot;stylesheet&quot; href=&quot;https://act.weixin.qq.com/static/cdn/css/wepayui/0.1.1/wepayui.min.css&quot;&gt;
@@ -42,8 +39,8 @@ PC端
 
 ## 安装源码
 
-我们提供了源码方便有一定开发能力的程序员使用，其中 WePayUI 安装包包含开发目录 src 和生产目录 dist ，其中开发环境包含Less、JavaScript、字体文件的源码，使用 gulp 作为编译系统。
-### github下载
+我们提供了源码方便有一定开发能力的程序员使用，其中开发环境包含Less、JavaScript、字体文件的源码，使用 gulp 作为编译系统。
+### github
 https://github.com/wepayui
 
 ### npm下载
