@@ -4,7 +4,7 @@ var gulp = require('gulp'),
 
 gulp.task('build:img', function (){
 	for(var i = 0;i < config.length;i++){
-		gulp.src(filePath._COMPONENT_FORPATH + config[i] + "/" + "*.{jpg,png,gif}")
+		gulp.src(filePath._COMPONENT_FORPATH + config[i] + "/" + "*.{jpg,png,gif,svg}")
 		.pipe(gulp.dest(filepath._IMG_TOPATH))
 		.pipe(browserSync.reload({stream: true}));
 	}
