@@ -16,14 +16,11 @@ WePayUI 由微信支付为服务商和商户量身打造，用于快速制作符
 </ul>
 
 ## 预览
-PC端
-<p>
-    [https://wepayui.github.io](https://wepayui.github.io)
-</p>
-移动端
-<p>
+### PC端
+[https://wepayui.github.io](https://wepayui.github.io)
+
+### 移动端
 <img width="250" height="250" src="https://wepayui.github.io/img/code.png">
-</p>
 
 ## 快速使用
 我们在页面中提供了复制代码的功能，您可以用完即走。或直接引用 CDN 资源。
