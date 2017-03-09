@@ -1,6 +1,6 @@
 # WePayUI
 <p>
-<a href="https://www.npmjs.com/package/wepayui"><img src="https://img.shields.io/badge/npm-v0.0.1-blue.svg"></a>
+<a href="https://www.npmjs.com/package/wepayui"><img src="https://img.shields.io/badge/npm-v0.1.1-blue.svg"></a>
 <a href="https://github.com/wepayui/wepayui"><img src="https://img.shields.io/badge/github-wepayui-green.svg"></a>
 </p>
 
@@ -18,7 +18,7 @@ WePayUI 由微信支付为服务商和商户量身打造，用于快速制作符
 ## 预览
 PC端
 <p>
-    <a href="https://wepayui.github.io" target="_blank">https://wepayui.github.io</a>
+    [https://wepayui.github.io](https://wepayui.github.io)
 </p>
 移动端
 <p>
@@ -26,24 +26,18 @@ PC端
 </p>
 
 ## 快速使用
-我们提供了复制代码，用完即走的功能。
-<p>
-<img width="456" src="https://wepayui.github.io/img/wepayui_copy.gif" style="border:5px solid #ccc;">
-</p>
-或，引用 CDN 资源。
-<pre>
-&lt;!-- WePayUI 核心CSS 文件，压缩版 --&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;https://act.weixin.qq.com/static/cdn/css/wepayui/0.1.1/wepayui.min.css&quot;&gt;
+我们在页面中提供了复制代码的功能，您可以用完即走。或直接引用 CDN 资源。
+###v0.1.1
 
-&lt;!-- WePayUI 核心CSS 文件，未压缩版，含less源码预览 --&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;https://act.weixin.qq.com/static/cdn/css/wepayui/0.1.1/wepayui.css&quot;&gt;
-</pre>
+[https://act.weixin.qq.com/static/cdn/css/wepayui/0.1.1/wepayui.min.css](https://act.weixin.qq.com/static/cdn/css/wepayui/0.1.1/wepayui.min.css)
+
+[https://act.weixin.qq.com/static/cdn/css/wepayui/0.1.1/wepayui.css](https://act.weixin.qq.com/static/cdn/css/wepayui/0.1.1/wepayui.css)
 
 ## 安装源码
 
 我们提供了源码方便有一定开发能力的程序员使用，其中开发环境包含Less、JavaScript、字体文件的源码，使用 gulp 作为编译系统。
 ### github
-https://github.com/wepayui
+[wepayui.zip](https://github.com/wepayui/wepayui/archive/master.zip)
 
 ### npm下载
 <pre>
